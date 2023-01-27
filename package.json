@@ -4,16 +4,19 @@
   "description": "An Electron Application",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nathanjms/demo-electron-app.git"
   },
-  "author": "Nathan James",
+  "author": "Nathan James <nathan@nathanjms.co.uk>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nathanjms/demo-electron-app/issues"
   },
-  "homepage": "https://github.com/Nathanjms/demo-electron-app#readme"
+  "homepage": "https://github.com/Nathanjms/demo-electron-app#readme",
+  "devDependencies": {
+    "electron": "^22.1.0"
+  }
 }
